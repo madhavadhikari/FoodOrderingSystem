@@ -1,0 +1,47 @@
+<web-app>
+        <servlet>
+	        <servlet-name>test1</servlet-name>
+	       <servlet-class>OrderedFood</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                 <servlet-name>test1</servlet-name>
+                 <url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	        <servlet-name>test2</servlet-name>
+		<servlet-class>OrderDisplay</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>test2</servlet-name>
+                <url-pattern>/orderdisplay</url-pattern>
+        </servlet-mapping>
+	<servlet>
+		<servlet-name>test3</servlet-name>
+		<servlet-class>UpdateOrder</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>test3</servlet-name>
+                <url-pattern>/updateorder</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		 <servlet-name>test4</servlet-name>
+		<servlet-class>DeleteOrder</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>test4</servlet-name>
+                <url-pattern>/delete</url-pattern>
+        </servlet-mapping>
+        
+        <servlet>
+               <servlet-name>test7</servlet-name>
+                <servlet-class>CreateBill</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>test7</servlet-name>
+                <url-pattern>/createbill</url-pattern>
+        </servlet-mapping>
+</web-app>		
+
+
+
+
